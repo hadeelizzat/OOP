@@ -8,7 +8,7 @@ public class Player
     public int health ;
     static int playerCount;
     public void InitializePlayer(string name, int initialHealth){
-        name=playerName;
+        playerName=name;
         health=initialHealth;
         playerCount++;
     }
